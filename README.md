@@ -1,6 +1,9 @@
 # Potapljanje-ladjic
 Igra potapljanje ladjic kot projekt pri predmetu Uvod v programiranje.
 
-#Navodila za zagon igre
+## Navodila za zagon igre
 1. Na svoj računalnik naložite vse datoteke.
-2. V pythonu poženite datoteko spletni_vmesnik.py z ukazom python3 -i tekstovni_vmesnik.py.
+2. V pythonu poženite datoteko spletni_vmesnik.py z ukazom `python3 -i spletni_vmesnik.py`.
+
+## Navodila za igranje
+Igra je zasnovana tako, da jo lahko igrate, ko ste sami ali ko ste s prijateljem. Na začetnem zaslonu tako izberete gumb **Igra proti računalniku** ali **Igra proti prijatelju**. Kasneje se lahko odločate o velikosti polja (in s tem tudi o času igranja). Na voljo so 4 različne velikosti. Če igrate s prijateljem, se vam bo pokazalo okno, kjer si boste morali izbrati svoje ime v igri. Če tega ne boste storili, se bo pod vaše ime shranilo **Prvi** oziroma **Drugi igralec**. Izbirali boste lahko tudi v tem, ali si želite sami sestaviti svoje polje, ali vam ga računalnik. Sami si svoje polje sestavite tako, da si kjerkoli v mapi izberete prvi kvadratek svoje ladjice. Pri tem morate biti pozorni, da boste imeli dovolj prostora, da boste svojo ladjico lahko do konca sestavili (pri Dolgi igri). Kasneje se vam pokaže okolica tega kvadratka, kjer lahko izberete naslednji kvadatek svoje ladjice. In tako do polne velikosti ladjice. Velikosti in število ladjic bo posebej napisano. Če igrate proti računalniku, igro začnete vi, če pa igrate s prijateljem, igro začne **Drugi igralec**. Preden se bo pokazalo polje drugega igralca, vas bo posebej opozorilo. Cilj igre je, da prvi potopite vse ladjice svojega nasprotnika. Ladjice zadanete tako, da kliknete na mesto, kjer mislite, da ima nasprotnik skrito ladjico. Takrat se bo mesto, kjer je ladjica obarvalo oranžno, drugače bo belo. Ladja je potopljena, ko zadanete vse kvadratke iz katerih je sestavljena. Takrat se ladjica obarva rdeče. Spremljate lahko, kam cilja drugi igralec, tako da pogledate na svoje polje. Tam, kjer je kvadratek označen z **X**, je vaš nasprotnik že preveril, če imate ladjico. Ko nekdo zmaga, se vam bo prikazalo vaše in njegovo polje ter možnost nadaljnjega igranja.
